@@ -1,0 +1,98 @@
+/* Reset some default styles */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+*{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+
+/* Header styles */
+header {
+    background-color: #fff;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px 0;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+    color: #ff6600;
+}
+
+/* Main section styles */
+main {
+    padding: 20px;
+}
+
+.section {
+    font-weight: 300;
+    text-align: center;
+    background-color: #fff;
+    padding: 40px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer styles */
+footer {
+    margin-top: 280px;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.img
+{
+    width: 400px;
+    margin-left: 400px;
+}
+
+#About{
+    text-align: center;
+    font-style: italic;
+}
+
+#marquee{
+    font-size: 35px;
+}
